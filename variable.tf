@@ -18,3 +18,8 @@ variable "key" {
   type    = string
   default = "maya"
 }
+
+variable "tags" {
+  type = string
+  default = "Maya_ec2"
+}
